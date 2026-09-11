@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OgreBattle.Engine/1.0.0": {
+        "runtime": {
+          "OgreBattle.Engine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OgreBattle.Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

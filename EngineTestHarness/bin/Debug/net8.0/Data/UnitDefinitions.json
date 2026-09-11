@@ -1,0 +1,18 @@
+{
+  "Knight": {
+    "Id": "Knight",
+    "HP": 120,
+    "STR": 18,
+    "AGI": 10,
+    "INT": 6,
+    "Abilities": ["Slash"]
+  },
+  "Wizard": {
+    "Id": "Wizard",
+    "HP": 80,
+    "STR": 6,
+    "AGI": 8,
+    "INT": 20,
+    "Abilities": ["Fireball"]
+  }
+}

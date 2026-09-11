@@ -1,0 +1,14 @@
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\Data\UnitDefinitions.json
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\Data\ClassDefinitions.json
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\Data\MapData.json
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\OgreBattle.Engine.deps.json
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\OgreBattle.Engine.dll
+C:\Users\enbei\Desktop\ogre\Engine\bin\Debug\net8.0\OgreBattle.Engine.pdb
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\OgreBattle.Engine.dll
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\refint\OgreBattle.Engine.dll
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\OgreBattle.Engine.pdb
+C:\Users\enbei\Desktop\ogre\Engine\obj\Debug\net8.0\ref\OgreBattle.Engine.dll

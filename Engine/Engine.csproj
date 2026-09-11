@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>OgreBattle.Engine</AssemblyName>
+    <RootNamespace>OgreBattle.Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Data\UnitDefinitions.json" CopyToOutputDirectory="Always" />
+    <None Include="Data\ClassDefinitions.json" CopyToOutputDirectory="Always" />
+    <None Include="Data\MapData.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

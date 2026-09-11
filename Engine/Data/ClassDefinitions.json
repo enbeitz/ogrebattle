@@ -1,0 +1,12 @@
+{
+  "Knight": {
+    "Id": "Knight",
+    "Name": "Knight",
+    "Role": "Frontline"
+  },
+  "Wizard": {
+    "Id": "Wizard",
+    "Name": "Wizard",
+    "Role": "Backline"
+  }
+}
