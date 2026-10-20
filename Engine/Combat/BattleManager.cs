@@ -11,6 +11,7 @@ namespace OgreBattle.Engine.Combat
 
         private readonly DamageCalculator _damageCalculator = new DamageCalculator();
         private readonly AIController _ai = new AIController();
+        private bool _armyATurn = true;
 
         public bool IsFinished { get; private set; }
 
@@ -24,8 +25,10 @@ namespace OgreBattle.Engine.Combat
         {
             if (IsFinished) return;
 
-            var attacker = _ai.ChooseAttacker(ArmyA);
-            var target = _ai.ChooseTarget(ArmyB);
+            var attackers = _armyATurn ? ArmyA : ArmyB;
+            var defenders = _armyATurn ? ArmyB : ArmyA;
+            var attacker = _ai.ChooseAttacker(attackers);
+            var target = _ai.ChooseTarget(defenders);
 
             if (attacker == null || target == null)
             {
@@ -39,8 +42,10 @@ namespace OgreBattle.Engine.Combat
             target.HP -= damage;
             if (target.HP < 0) target.HP = 0;
 
-            if (!AnyAlive(ArmyB) || !AnyAlive(ArmyA))
+            if (!AnyAlive(ArmyA) || !AnyAlive(ArmyB))
                 IsFinished = true;
+            else
+                _armyATurn = !_armyATurn;
         }
 
         private bool AnyAlive(List<Unit> units)
